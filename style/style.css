@@ -154,4 +154,15 @@ input[type=text]:focus {
 .lobbyBlock {
     width: 100%;
     height: 100vh;
+    background: #F6F2F6;
+}
+
+#code_room {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e1d5d967;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 580px;
 }
