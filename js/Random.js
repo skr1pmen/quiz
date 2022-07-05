@@ -9,7 +9,7 @@ changeBgImg();
 const code_room = document.getElementById('code_room');
 
 function Codes() {
-    code_room.innerHTML = "#" + Math.floor(Math.random() * (9999 - 1000 + 1))
+    code_room.innerHTML = "Комната #" + Math.floor(Math.random() * (9999 - 1000 + 1))
 }
 
 Codes();

@@ -56,9 +56,20 @@ document.getElementById('reg').onclick = function() {
     document.getElementById('Reg').classList.add('activ');
 }
 
-
 document.getElementById('regback').onclick = function() {
     document.getElementById('authBlock').classList.add('activ');
     setTimeout(1000)
     document.getElementById('Reg').classList.remove('activ');
+}
+
+document.getElementById('lock').onclick = function() {
+    document.getElementById('settingsBox').classList.add('deactiv');
+    setTimeout(1000)
+    document.getElementById('usersBox').classList.remove('deactiv');
+}
+
+document.getElementById('settings').onclick = function() {
+    document.getElementById('settingsBox').classList.remove('deactiv');
+    setTimeout(1000)
+    document.getElementById('usersBox').classList.add('deactiv');
 }

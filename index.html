@@ -32,7 +32,62 @@
                 </div>
             </div>
             <div class="lobbyBlock">
-                <h1 id="code_room"></h1>
+                <span class="bg">Lobby</span>
+                <div id="settingsBox" class="deactiv">
+                    <h3>Настройки</h3>
+                    <div class="settings">
+                        <label class="checkbox">
+                            <input type="checkbox"/>
+                            <div class="checkbox__checkmark"></div>
+                            <div class="checkbox__body">Какой-то чекбокс</div>
+                          </label>
+                        <label class="checkbox">
+                            <input type="checkbox"/>
+                            <div class="checkbox__checkmark"></div>
+                            <div class="checkbox__body">Ещё какой-то чекбокс</div>
+                        </label>
+                        <label class="checkbox">
+                            <input checked type="checkbox"/>
+                            <div class="checkbox__checkmark"></div>
+                            <div class="checkbox__body">И ещё какой-то чекбокс</div>
+                        </label>
+                        <input type="number" placeholder="Максимальное количестко участников">
+                        <i>хз что тут должно быть ещё</i>
+                        <button id="lock" class="btn">Сохранить и закрыть</button>
+                    </div>
+                </div>
+                <div id="usersBox">
+                    <h1 id="code_room"></h1>
+                    <div class="users">
+                        <div class="user">
+                            <div class="img temp_1"></div>
+                            <div class="username leader">Ulinayal</div>
+                        </div>
+                        <div class="user">
+                            <div class="img temp_2"></div>
+                            <div class="username del">Ppertour</div>
+                        </div>
+                        <div class="user">
+                            <div class="img temp_3"></div>
+                            <div class="username del">Vadalinn</div>
+                        </div>
+                        <div class="user">
+                            <div class="img temp_4"></div>
+                            <div class="username del">Vindie</div>
+                        </div>
+                        <div class="user">
+                            <div class="img temp_5"></div>
+                            <div class="username del">Zanneth</div>
+                        </div>
+                    </div>
+                    <div class="audience">
+                        <h3>Зрителей: 5</h3>
+                    </div>
+                    <div class="adminBtn adm">
+                        <button class="btn" id="settings">Настройки</button>
+                        <button class="btn" id="start">Начать игру</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
