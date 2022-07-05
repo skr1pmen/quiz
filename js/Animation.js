@@ -1,3 +1,4 @@
+// работает не трожь
 const animItems = document.querySelectorAll('.animItems');
 
 if (animItems.length > 0) {
@@ -38,6 +39,7 @@ if (animItems.length > 0) {
 
 }
 
+// мммм... хуита
 document.getElementById('login').onclick = function() {
     document.getElementById('authBlock').classList.remove('activ');
     setTimeout(1000)
@@ -74,7 +76,7 @@ document.getElementById('settings').onclick = function() {
     document.getElementById('usersBox').classList.add('deactiv');
 }
 
-
+// loader
 window.onload = function() {
     document.body.classList.add('loaded_hiding');
     window.setTimeout(function() {
