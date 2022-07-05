@@ -73,3 +73,12 @@ document.getElementById('settings').onclick = function() {
     setTimeout(1000)
     document.getElementById('usersBox').classList.add('deactiv');
 }
+
+
+window.onload = function() {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function() {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+    }, 500);
+}
