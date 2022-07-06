@@ -462,3 +462,13 @@ input[type=number] {
     width: 1000px;
     accent-color: #00A5F5;
 }
+
+.komi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+}
