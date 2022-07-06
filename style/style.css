@@ -468,7 +468,7 @@ input[type=number] {
     bottom: 0;
     left: 0;
     z-index: 5;
-    width: max-content;
+    width: 15%;
     height: max-content;
     cursor: pointer;
 }
